@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+
+    <title>Results</title>
+</head>
+<body>
+    <h1>Results</h1>
+    <table border="1">
+        <tr>
+            <th>Title</th>
+            <th>Authors</th>
+            <th>Main Author</th>
+            <th>Year</th>
+            <th>Journal Homepage</th>
+            <th>Impact Factor</th>
+            <th>Citation URL</th>
+            <th>Number of Citations</th>
+            <th>DOI</th>
+            <th>Journal Name</th>
+        </tr>
+        {% for result in results %}
+        <tr>
+            <td>{{ result.Title }}</td>
+            <td>{{ result.Authors }}</td>
+            <td>{{ result.Main_Author }}</td>
+            <td>{{ result.Year }}</td>
+            <td>{{ result.Journal_Homepage }}</td>
+            <td>{{ result.Impact_Factor }}</td>
+            <td><a href="{{ result.Citation_URL }}">Link</a></td>
+            <td>{{ result.Number_of_Citations }}</td>
+            <td>{{ result.DOI }}</td>
+            <td>{{ result.Journal_Name }}</td>
+        </tr>
+        {% endfor %}
+    </table>
+    <form action="/download" method="post">
+        <input type="hidden" name="results" value="{{ results }}">
+        <button type="submit">Download CSV</button>
+    </form>
+</body>
+</html>
