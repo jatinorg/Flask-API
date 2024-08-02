@@ -57,3 +57,101 @@ INFO:werkzeug:127.0.0.1 - - [31/Jul/2024 11:19:09] "[36mGET /static/styles.css 
 INFO:werkzeug:127.0.0.1 - - [31/Jul/2024 11:19:55] "POST / HTTP/1.1" 200 -
 INFO:werkzeug:127.0.0.1 - - [31/Jul/2024 11:20:01] "POST / HTTP/1.1" 200 -
 INFO:werkzeug:127.0.0.1 - - [31/Jul/2024 11:20:01] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 631-732-132
+INFO:werkzeug:127.0.0.1 - - [02/Aug/2024 10:16:49] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Aug/2024 10:16:49] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [02/Aug/2024 10:16:50] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [02/Aug/2024 10:17:42] "POST / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Aug/2024 10:17:42] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\91812\\AppData\\Local\\Programs\\Python\\Python38\\Lib\\site-packages\\flask\\app.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\91812\\AppData\\Local\\Programs\\Python\\Python38\\Lib\\json\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\91812\\AppData\\Local\\Programs\\Python\\Python38\\Lib\\json\\decoder.py', reloading
+INFO:werkzeug:127.0.0.1 - - [02/Aug/2024 10:23:05] "[35m[1mPOST /download HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [02/Aug/2024 10:23:05] "[36mGET /download?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [02/Aug/2024 10:23:05] "[36mGET /download?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 631-732-132
+INFO:werkzeug:127.0.0.1 - - [02/Aug/2024 10:23:07] "[36mGET /download?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [02/Aug/2024 10:23:07] "[36mGET /download?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\91812\\API_Scholar\\app.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\91812\\API_Scholar\\app.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\91812\\API_Scholar\\app.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\91812\\API_Scholar\\app.py', reloading
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 631-732-132
+INFO:werkzeug:127.0.0.1 - - [02/Aug/2024 10:26:10] "[31m[1mPOST /download HTTP/1.1[0m" 400 -
+INFO:werkzeug:127.0.0.1 - - [02/Aug/2024 10:26:14] "[31m[1mPOST /download HTTP/1.1[0m" 400 -
+INFO:werkzeug:127.0.0.1 - - [02/Aug/2024 10:26:16] "[31m[1mPOST /download HTTP/1.1[0m" 400 -
+INFO:werkzeug:127.0.0.1 - - [02/Aug/2024 10:26:25] "[31m[1mPOST /download HTTP/1.1[0m" 400 -
+INFO:werkzeug:127.0.0.1 - - [02/Aug/2024 10:26:28] "[31m[1mPOST /download HTTP/1.1[0m" 400 -
+INFO:werkzeug:127.0.0.1 - - [02/Aug/2024 10:26:31] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Aug/2024 10:27:05] "POST / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Aug/2024 10:27:15] "POST / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Aug/2024 10:27:15] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\91812\\AppData\\Local\\Programs\\Python\\Python38\\Lib\\site-packages\\flask\\helpers.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\91812\\AppData\\Local\\Programs\\Python\\Python38\\Lib\\site-packages\\werkzeug\\utils.py', reloading
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 631-732-132
+INFO:werkzeug:127.0.0.1 - - [02/Aug/2024 10:27:46] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Aug/2024 10:27:46] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [02/Aug/2024 10:28:03] "[35m[1mPOST /download HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [02/Aug/2024 10:28:03] "[36mGET /download?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [02/Aug/2024 10:28:03] "[36mGET /download?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [02/Aug/2024 10:28:03] "[36mGET /download?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [02/Aug/2024 10:28:03] "[36mGET /download?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\91812\\API_Scholar\\app.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\91812\\API_Scholar\\app.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\91812\\API_Scholar\\app.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\91812\\API_Scholar\\app.py', reloading
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 631-732-132
+INFO:werkzeug:127.0.0.1 - - [02/Aug/2024 10:31:18] "POST / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Aug/2024 10:31:53] "POST / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Aug/2024 10:31:53] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [02/Aug/2024 10:32:54] "[35m[1mPOST /download HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [02/Aug/2024 10:32:54] "[36mGET /download?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [02/Aug/2024 10:32:54] "[36mGET /download?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [02/Aug/2024 10:32:54] "[36mGET /download?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [02/Aug/2024 10:33:47] "[35m[1mPOST /download HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [02/Aug/2024 10:33:47] "[36mGET /download?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [02/Aug/2024 10:33:47] "[36mGET /download?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [02/Aug/2024 10:33:47] "[36mGET /download?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\91812\\API_Scholar\\app.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\91812\\API_Scholar\\app.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\91812\\API_Scholar\\app.py', reloading
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 631-732-132
+INFO:werkzeug: * Detected change in 'C:\\Users\\91812\\API_Scholar\\app.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\91812\\API_Scholar\\app.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\91812\\API_Scholar\\app.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\91812\\API_Scholar\\app.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\91812\\API_Scholar\\app.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\91812\\API_Scholar\\app.py', reloading
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 631-732-132
+INFO:werkzeug:127.0.0.1 - - [02/Aug/2024 10:38:04] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Aug/2024 10:38:48] "POST / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [02/Aug/2024 10:38:48] "[36mGET /static/styles.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [02/Aug/2024 10:38:58] "[35m[1mPOST /download HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [02/Aug/2024 10:38:58] "[36mGET /download?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [02/Aug/2024 10:38:58] "[36mGET /download?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [02/Aug/2024 10:38:58] "[36mGET /download?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\91812\\API_Scholar\\app.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\91812\\API_Scholar\\app.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\91812\\API_Scholar\\app.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\91812\\API_Scholar\\app.py', reloading
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 631-732-132
+INFO:werkzeug:127.0.0.1 - - [02/Aug/2024 10:40:51] "POST /download HTTP/1.1" 200 -
